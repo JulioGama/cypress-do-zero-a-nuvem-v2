@@ -5,7 +5,7 @@ beforeEach(() => {
 
 describe('Central de Atendimento ao Cliente TAT', () => {
   it.only('verifica o título da aplicação', () => {
-    cy..should('equal', 'Central de Atendimento ao Cliente TAT')
+    cy.title().should('equal', 'Central de Atendimento ao Cliente TAT')
   });
 
   it('preenche os campos obrigatórios e envia o formulário', () => {
